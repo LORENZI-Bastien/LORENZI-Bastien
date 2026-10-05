@@ -13,15 +13,21 @@ J’interviens chez les clients pour :
 - La configuration du système
 - La formation du client
 
-## Mon projet en cybersécurité
+## Mes projets de BUT
 
-Lors de la **SAÉ 3.04 — Découvrir le pentesting**, j’ai réalisé des défis de cybersécurité et documenté dix challenges dans un rapport.
-
-- Analyse de journaux Windows EVTX, Syslog Linux et Nginx
-- Recherche sur les référentiels CWE, CVE, CPE, CVSS et MITRE ATT&CK
-- Exercices avec Burp Suite et Gpg4win
-
-[En savoir plus sur le projet](https://wonderful-chebakia-f83e9d.netlify.app/#projets)
+| SAÉ | Projet |
+|---|---|
+| 1.1 | [Hygiène numérique](https://github.com/LORENZI-Bastien/SAE-1.1-Hygiene-numerique) |
+| 1.2 | [Réseaux informatiques](https://github.com/LORENZI-Bastien/SAE-1.2-Reseaux-informatiques) |
+| 1.3 | [Dispositif de transmission](https://github.com/LORENZI-Bastien/SAE-1.3-Dispositif-transmission) |
+| 1.4 | [Site web HTML / CSS](https://github.com/LORENZI-Bastien/SAE-1.4-Site-web) |
+| 1.5 | [Robot suiveur de ligne](https://github.com/LORENZI-Bastien/SAE-1.5-Robot-suiveur-de-ligne) |
+| 2.1 | [Infrastructure réseau](https://github.com/LORENZI-Bastien/SAE-2.1-Infrastructure-reseau) |
+| 2.2 | [Mesure de signaux](https://github.com/LORENZI-Bastien/SAE-2.2-Mesure-de-signaux) |
+| 2.3 | [Ventilomètre](https://github.com/LORENZI-Bastien/SAE-2.3-Ventilometre) |
+| 2.4 | [Projet intégratif : audit](https://github.com/LORENZI-Bastien/SAE-2.4-Projet-integratif) |
+| 3.04 | [Découvrir le pentesting](https://github.com/LORENZI-Bastien/SAE-3.04-Pentesting) |
+| 4.Cyber.01 | [Sécuriser un système d’information](https://github.com/LORENZI-Bastien/SAE-4.Cyber.01-Securiser-SI) |
 
 ## Après le BUT
 
