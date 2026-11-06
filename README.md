@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://wonderful-chebakia-f83e9d.netlify.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visiter-a78bfa?style=for-the-badge&logo=netlify&logoColor=white"></a>
+  <a href="https://bastien-lorenzi.netlify.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visiter-a78bfa?style=for-the-badge&logo=netlify&logoColor=white"></a>
   <a href="mailto:bastienlorenzi70@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-Me%20contacter-1a1526?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
@@ -68,5 +68,5 @@ Une petite infrastructure montée chez moi sur du matériel de récupération, a
 ---
 
 <p align="center">
-  📫 <a href="mailto:bastienlorenzi70@gmail.com">bastienlorenzi70@gmail.com</a> · 🌐 <a href="https://wonderful-chebakia-f83e9d.netlify.app/">Mon portfolio</a>
+  📫 <a href="mailto:bastienlorenzi70@gmail.com">bastienlorenzi70@gmail.com</a> · 🌐 <a href="https://bastien-lorenzi.netlify.app/">Mon portfolio</a>
 </p>
