@@ -1,46 +1,58 @@
-# Bonjour, moi c’est Bastien Lorenzi
+<h1 align="center">Bastien Lorenzi</h1>
 
-Étudiant en **3e année de BUT Réseaux et Télécommunications**, parcours **cybersécurité**, à Montbéliard. Je suis également **technicien en alternance chez Scutum, à Rixheim**.
+<p align="center">
+  <strong>Étudiant en 3<sup>e</sup> année de BUT Réseaux et Télécommunications · parcours cybersécurité</strong><br>
+  Montbéliard · Technicien en alternance chez <strong>Scutum</strong>, à Rixheim
+</p>
 
-[Découvrir mon portfolio](https://wonderful-chebakia-f83e9d.netlify.app/)
+<p align="center">
+  <a href="https://wonderful-chebakia-f83e9d.netlify.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visiter-a78bfa?style=for-the-badge&logo=netlify&logoColor=white"></a>
+  <a href="mailto:bastienlorenzi70@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-Me%20contacter-1a1526?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
 
-## Mon expérience sur le terrain
+---
 
-J’interviens chez les clients pour :
+### 👋 En bref
 
-- Le service après-vente (SAV)
-- L’installation de matériel
-- La configuration du système
-- La formation du client
+- 🎓 BUT Réseaux et Télécommunications, **parcours cybersécurité**, à Montbéliard
+- 🛡️ Technicien en alternance chez **Scutum** (vidéosurveillance, contrôle d’accès, anti-intrusion, sécurité incendie, télésurveillance)
+- 🎯 Après le BUT : entrer dans la vie active comme **technicien**. Mon alternance m’a confirmé que j’apprécie le terrain et le contact avec les clients.
 
-## Mes projets de BUT
+### 🔧 Sur le terrain
 
-| SAÉ | Projet |
+`SAV` · `Installation de matériel` · `Configuration du système` · `Formation du client`
+
+### 🧰 Outils et notions pratiqués
+
+| Domaine | Outils |
 |---|---|
-| 1.1 | [Hygiène numérique](https://github.com/LORENZI-Bastien/SAE-1.1-Hygiene-numerique) |
-| 1.2 | [Réseaux informatiques](https://github.com/LORENZI-Bastien/SAE-1.2-Reseaux-informatiques) |
-| 1.3 | [Dispositif de transmission](https://github.com/LORENZI-Bastien/SAE-1.3-Dispositif-transmission) |
-| 1.4 | [Site web HTML / CSS](https://github.com/LORENZI-Bastien/SAE-1.4-Site-web) |
-| 1.5 | [Robot suiveur de ligne](https://github.com/LORENZI-Bastien/SAE-1.5-Robot-suiveur-de-ligne) |
-| 2.1 | [Infrastructure réseau](https://github.com/LORENZI-Bastien/SAE-2.1-Infrastructure-reseau) |
-| 2.2 | [Mesure de signaux](https://github.com/LORENZI-Bastien/SAE-2.2-Mesure-de-signaux) |
-| 2.3 | [Ventilomètre](https://github.com/LORENZI-Bastien/SAE-2.3-Ventilometre) |
-| 2.4 | [Projet intégratif : audit](https://github.com/LORENZI-Bastien/SAE-2.4-Projet-integratif) |
-| 3.04 | [Découvrir le pentesting](https://github.com/LORENZI-Bastien/SAE-3.04-Pentesting) |
-| 4.Cyber.01 | [Sécuriser un système d’information](https://github.com/LORENZI-Bastien/SAE-4.Cyber.01-Securiser-SI) |
+| Réseaux | Adressage IP, VLAN, DHCP, SSH, NFS / Samba, Wireshark, Cisco |
+| Cybersécurité | Stormshield, NAT / filtrage, Snort, Kali Linux, Nmap, Nessus, Metasploit, Burp Suite, Root-Me |
+| Télécoms | Wi-Fi, antennes, VoIP, FreePBX, Linphone, GNU Radio |
+| Systèmes & dev | Linux, Raspberry Pi, Python / Flask, SQLite, Arduino / C++, HTML / CSS |
 
-## Après le BUT
+### 📂 Mes projets de BUT (SAÉ)
 
-Je souhaite entrer dans la vie active comme technicien. Mon alternance m’a confirmé que j’apprécie les interventions sur le terrain et le contact avec les clients.
+| SAÉ | Projet | Thème |
+|---|---|---|
+| 4.Cyber.01 | [Sécuriser un système d’information](https://github.com/LORENZI-Bastien/SAE-4.Cyber.01-Securiser-SI) | Pare-feu Stormshield, DMZ, Snort |
+| 3.04 | [Découvrir le pentesting](https://github.com/LORENZI-Bastien/SAE-3.04-Pentesting) | Root-Me, Burp Suite, analyse de journaux |
+| 2.4 | [Auditer un environnement de test](https://github.com/LORENZI-Bastien/SAE-2.4-Projet-integratif) | Kali, Nmap / Nessus, Metasploit |
+| 2.3 | [Le ventilomètre](https://github.com/LORENZI-Bastien/SAE-2.3-Ventilometre) | Python / Flask, SQLite, API météo |
+| 2.2 | [Mesurer un signal en téléphonie VoIP](https://github.com/LORENZI-Bastien/SAE-2.2-Mesure-de-signaux) | FreePBX, Linphone, GNU Radio |
+| 2.1 | [Construire un réseau pour une petite structure](https://github.com/LORENZI-Bastien/SAE-2.1-Infrastructure-reseau) | DHCP, VLAN, SSH, Linux |
+| 1.5 | [Robot suiveur de ligne](https://github.com/LORENZI-Bastien/SAE-1.5-Robot-suiveur-de-ligne) | Arduino, C++ |
+| 1.4 | [Se présenter sur Internet](https://github.com/LORENZI-Bastien/SAE-1.4-Site-web) | HTML / CSS |
+| 1.3 | [Découvrir un dispositif de transmission](https://github.com/LORENZI-Bastien/SAE-1.3-Dispositif-transmission) | Wi-Fi, antennes |
+| 1.2 | [S’initier aux réseaux informatiques](https://github.com/LORENZI-Bastien/SAE-1.2-Reseaux-informatiques) | Wireshark, SSH, Nmap |
+| 1.1 | [Hygiène numérique](https://github.com/LORENZI-Bastien/SAE-1.1-Hygiene-numerique) | Cisco Networking Basics |
 
-## En dehors du travail
+### 🏐 En dehors du travail
 
-**Handball** — Je joue au HBC Lure Villers depuis l’âge de 9 ans. Le handball, c’est le plaisir du jeu en équipe, un moment pour décompresser et retrouver mes amis.
+**Handball** au HBC Lure Villers depuis l’âge de 9 ans · **Photographie** de paysages et de couchers de soleil · **Voyages** pour découvrir d’autres paysages et cultures.
 
-**Photographie** — J’aime capturer les paysages, la lumière et les couchers de soleil. La photographie me permet de garder une trace des moments et des lieux découverts au fil de mes voyages.
+---
 
-**Voyages** — J’aime découvrir de nouveaux paysages, explorer d’autres cultures et sortir de mon quotidien. Chaque voyage est l’occasion de vivre de nouvelles expériences et de revenir avec des souvenirs à partager.
-
-## Me contacter
-
-[bastienlorenzi70@gmail.com](mailto:bastienlorenzi70@gmail.com) · [Mon portfolio](https://wonderful-chebakia-f83e9d.netlify.app/)
+<p align="center">
+  📫 <a href="mailto:bastienlorenzi70@gmail.com">bastienlorenzi70@gmail.com</a> · 🌐 <a href="https://wonderful-chebakia-f83e9d.netlify.app/">Mon portfolio</a>
+</p>
