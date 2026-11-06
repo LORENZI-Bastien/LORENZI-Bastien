@@ -29,7 +29,21 @@
 | Réseaux | Adressage IP, VLAN, DHCP, SSH, NFS / Samba, Wireshark, Cisco |
 | Cybersécurité | Stormshield, NAT / filtrage, Snort, Kali Linux, Nmap, Nessus, Metasploit, Burp Suite, Root-Me |
 | Télécoms | Wi-Fi, antennes, VoIP, FreePBX, Linphone, GNU Radio |
-| Systèmes & dev | Linux, Raspberry Pi, Python / Flask, SQLite, Arduino / C++, HTML / CSS |
+| Systèmes & dev | Linux, Raspberry Pi, Docker / Compose, WSL2, Tailscale, Python / Flask, SQLite, Arduino / C++, HTML / CSS |
+
+### 🏠 Mon homelab
+
+Une petite infrastructure montée chez moi sur du matériel de récupération, accessible uniquement par VPN, **sans aucun port ouvert sur la box**.
+
+| Machine | Rôle | Services |
+|---|---|---|
+| Tour (Ryzen 5 1600, 16 Go, GTX 1660 Super) · Windows 10, WSL2, Docker | Serveur principal, 14 conteneurs | Ollama + Open WebUI (IA locale sur GPU), Immich, Jellyfin, Navidrome, Home Assistant, n8n, Uptime Kuma, Homepage |
+| Raspberry Pi 5 (8 Go, SSD NVMe) · Raspberry Pi OS, Docker | Services allumés 24 h/24 | AdGuard Home (DNS du réseau, DoH), Vaultwarden, Radicale, Immich |
+
+- 🔐 **Accès** : Tailscale (WireGuard) avec MagicDNS, `tailscale serve` comme reverse proxy et certificats Let’s Encrypt
+- 🧱 **Sécurité** : ports des conteneurs liés à la machine locale, pare-feu sur chaque hôte, SSH par clé, mises à jour automatiques, secrets hors du code
+- 💾 **Continuité** : sauvegardes versionnées (rsync + dumps des bases) plutôt qu’un RAID, migrations vérifiées par SHA256
+- 🚧 **En cours** : remplacement du disque de sauvegarde, Wake-on-LAN de la tour depuis le Pi, ACL Tailscale, labo Kubernetes (k3s)
 
 ### 📂 Mes projets de BUT (SAÉ)
 
