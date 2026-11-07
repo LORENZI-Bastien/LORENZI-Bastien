@@ -41,9 +41,10 @@ Une petite infrastructure montée chez moi sur du matériel de récupération, a
 | Raspberry Pi 5 (8 Go, SSD NVMe) · Raspberry Pi OS, Docker | Services allumés 24 h/24 | AdGuard Home (DNS du réseau, DoH), Vaultwarden, Radicale, Immich |
 
 - 🔐 **Accès** : Tailscale (WireGuard) avec MagicDNS, `tailscale serve` comme reverse proxy et certificats Let’s Encrypt
-- 🧱 **Sécurité** : ports des conteneurs liés à la machine locale, pare-feu sur chaque hôte, SSH par clé, mises à jour automatiques, secrets hors du code
-- 💾 **Continuité** : sauvegardes versionnées (rsync + dumps des bases) plutôt qu’un RAID, migrations vérifiées par SHA256
-- 🚧 **En cours** : remplacement du disque de sauvegarde, Wake-on-LAN de la tour depuis le Pi, ACL Tailscale, labo Kubernetes (k3s)
+- 🧱 **Sécurité** : ports des conteneurs liés à la machine locale, pare-feu sur chaque hôte, SSH par clé, mises à jour automatiques, secrets hors du code, inscriptions fermées sur le gestionnaire de mots de passe
+- 💾 **Continuité** : sauvegardes versionnées (rsync + dumps des bases) plutôt qu’un RAID, migrations vérifiées par SHA256. Point faible actuel : le disque de sauvegarde a lâché, pas encore de sauvegarde automatique valide
+- 🚧 **En cours** : nouveau disque et première sauvegarde complète vérifiée, bascule des téléphones vers le Pi, double authentification du gestionnaire de mots de passe
+- 🗺️ **Prévu** : Ethernet et Wake-on-LAN de la tour depuis le Pi, ACL Tailscale, Prometheus et Grafana, labo Kubernetes (k3s)
 
 ### 📂 Mes projets de BUT (SAÉ)
 
