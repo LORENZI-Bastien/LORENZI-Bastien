@@ -33,19 +33,19 @@
 
 ### 🏠 Mon homelab
 
-Une petite infrastructure montée chez moi sur du matériel de récupération, accessible uniquement par VPN, **sans aucun port ouvert sur la box**. Le Raspberry Pi tourne 24 h/24 pour les services légers ; la tour, plus gourmande, est réveillée à la demande pour l’IA locale et les tâches lourdes.
+Un homelab sobre en énergie, accessible uniquement par VPN, **sans aucun port ouvert sur la box** : tous les services tournent en conteneurs sur un Raspberry Pi 5 allumé 24 h/24. La tour de récupération qui les hébergeait au départ (avec une IA locale sur GPU) est en retrait depuis le 9 novembre 2026 et sera vendue.
 
 | Machine | Rôle | Services |
 |---|---|---|
-| Raspberry Pi 5 (8 Go, SSD NVMe) · Raspberry Pi OS, Docker | Serveur 24 h/24 (~2,3 Go de RAM sur 8) | AdGuard Home (DNS du réseau, DoH), Vaultwarden, Radicale, Immich, n8n, Uptime Kuma, point politique quotidien |
-| Tour (Ryzen 5 1600, 16 Go, GTX 1660 Super) · Windows 10, WSL2, Docker | Puissance à la demande | Ollama + Open WebUI (IA locale sur GPU), Jellyfin, Navidrome, reconnaissance de visages et sauvegarde le soir ; Home Assistant et Homepage en cours de bascule vers le Pi |
+| Raspberry Pi 5 (8 Go, SSD NVMe) · Raspberry Pi OS, Docker | Serveur unique, 24 h/24 | Vaultwarden, Radicale (CalDAV), Immich, AdGuard Home (DNS du réseau, DoH), n8n, Uptime Kuma, Home Assistant, Homepage, point politique quotidien |
+| Tour (Ryzen 5 1600, 16 Go, GTX 1660 Super) · Windows 10, WSL2, Docker | En retrait | Services arrêtés, garde les disques de données en attendant leur déplacement |
 
 - 🗳️ **Projet maison** : [point politique quotidien](https://github.com/LORENZI-Bastien/portfolio/tree/main/outils/point-politique), un service Python sans dépendance sur le Pi qui lit les données ouvertes de l’Assemblée nationale, du Sénat et de vie-publique et publie chaque matin un résumé neutre des votes sur Discord (10 tests unitaires)
 - 🔐 **Accès** : Tailscale (WireGuard) avec MagicDNS, `tailscale serve` comme reverse proxy et certificats Let’s Encrypt
-- 🧱 **Sécurité** : ports des conteneurs liés à la machine locale, pare-feu sur chaque hôte, SSH par clé, mises à jour automatiques, secrets hors du code, inscriptions fermées sur le gestionnaire de mots de passe
-- 💾 **Continuité** : sauvegardes versionnées (rsync + dumps des bases) plutôt qu’un RAID, migrations vérifiées par SHA256. Point faible actuel : le disque de sauvegarde a lâché, pas encore de sauvegarde automatique valide
-- 🚧 **En cours** : nouveau disque et première sauvegarde complète vérifiée, déplacement des services restants et des téléphones vers le Pi, double authentification du gestionnaire de mots de passe
-- 🗺️ **Prévu** : Ethernet et Wake-on-LAN de la tour depuis le Pi (à la demande et chaque soir), ACL Tailscale, Prometheus et Grafana, labo Kubernetes (k3s)
+- 🧱 **Sécurité** : ports des conteneurs liés à la machine locale, pare-feu hôte, SSH par clé, mises à jour automatiques, secrets hors du code, inscriptions fermées sur le gestionnaire de mots de passe
+- 💾 **Continuité** : sauvegardes versionnées (rsync + dumps des bases) plutôt qu’un RAID, migrations vérifiées par SHA256. Point faible actuel : le premier disque de sauvegarde a lâché, pas encore de sauvegarde automatique valide
+- 🚧 **En cours** : disque de 2 To en USB sur le Pi et première sauvegarde complète vérifiée, puis sauvegarde nocturne ; double authentification du gestionnaire de mots de passe
+- 🗺️ **Prévu** : boîtier 4 baies USB sur le Pi après Noël pour y remettre Jellyfin et Navidrome, vente de la tour, ACL Tailscale, labo Kubernetes (k3s)
 
 ### 📂 Mes projets de BUT (SAÉ)
 
